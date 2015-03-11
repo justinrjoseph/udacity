@@ -1,0 +1,72 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 62.5%;
+}
+
+header {
+	margin-top: 40px;
+}
+
+.logo {
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-ms-morder-radius: 100%;
+	border-radius: 100%;
+}
+
+h1 {
+	font-size: 6em;
+	font-weight: 100;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 300;
+	margin-top: 50px;
+	color: #bcbbbb;
+	text-indent: 1em;
+}
+
+h3 {
+	font-size: 2.75em;
+	color: #747704;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+hr {
+	border: 2px solid #747704;
+}
+
+@media only screen and (max-width: 767px) {
+	.logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	h1, h4 {
+		text-align: center;
+	}
+
+	h2 {
+		text-indent: 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {
+		font-size: 4em;
+	}
+}
